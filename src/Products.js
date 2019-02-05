@@ -31,7 +31,7 @@ export default class Products extends PureComponent{
 			  			<Cardholder name="Art 5" description="this is some serious shit" image={image13}/>
 			  		</Col>
 			  		<Col md={4}>
-			  			<Cardholder name="Art 6" description="LAst but not the least" image={image14}/>
+			  			<Cardholder name="Art 6" description="monalisa" image={image14}/>
 			  		</Col>
 		  		</Row>
 			</div>
