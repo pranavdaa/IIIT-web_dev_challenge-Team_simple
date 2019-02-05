@@ -16,6 +16,8 @@ export default class Upload extends Component {
     this.setState({value: event.target.value});
   }
     onFormSubmit(e){
+      alert('The file is' + this.state.file);
+      setInterval(function(){   alert('The file is sucessfully uploaded '); }, 3000);
         e.preventDefault();
         const formData = new FormData();
         formData.append('myImage',this.state.file);
