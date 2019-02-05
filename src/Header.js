@@ -25,6 +25,7 @@ export default class Header extends PureComponent {
             <NavItem eventKey={2} href="/products">Auction</NavItem>
             <NavItem eventKey={3} href="/contact">Contact Us</NavItem>
             <NavItem eventKey={4} href="/about">About-Project</NavItem>
+            <NavItem eventKey={5} href="/Upload">Upload</NavItem>
             <NavItem><ModalComponent value={this.state.value} onChangeValue={this.handleChangeValue}/></NavItem>
             <NavItem><RegistrationComponents value={this.state.value} onChangeValue={this.handleChangeValue}/></NavItem>
 

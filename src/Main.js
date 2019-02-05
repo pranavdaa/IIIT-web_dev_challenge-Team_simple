@@ -7,6 +7,7 @@ import About from './About'
 import Art1 from './Art1'
 import User1 from './User1'
 import Dashboard from './Dashboard'
+import Upload from './Upload'
 
 const Main = () => (
   <main>
@@ -18,8 +19,9 @@ const Main = () => (
       <Route path='/about' component={About}/>
       <Route path='/user1' component={User1}/>
       <Route path='/dashboard' component={Dashboard}/>
+      <Route path='/Upload' component={Upload}/>
     </Switch>
-    
+
   </main>
 )
 
